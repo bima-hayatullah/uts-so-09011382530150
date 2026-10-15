@@ -15,3 +15,4 @@ while true; do
     echo "Menunggu selama $INTERVAL detik sebelum backup berikutnya..."
     sleep "$INTERVAL"
 done
+# Update konfigurasi loop
