@@ -30,3 +30,4 @@ ARCHIVE_SIZE=$(du -h "$DEST_DIR/$ARCHIVE_NAME" | awk '{print $1}')
 echo "$CURRENT_TIME | $ARCHIVE_NAME | $ARCHIVE_SIZE" >> "$LOG_FILE"
 
 echo "Backup berhasil diselesaikan!"
+# Update komentar backup utama
